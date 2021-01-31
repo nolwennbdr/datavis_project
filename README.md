@@ -16,7 +16,7 @@ L'INA fournit des jeux de données à ce sujet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Il était déjà midi, et j'ai trouvé les murs de mon appartement trop blanc. J'ai révé d'un ailleurs.
+## Il était déjà midi, et j'ai trouvé les murs de mon appartement trop blanc. 
 
 Alors au lieu d'allez dejeuné, j'ai fais une requête wikidata. A nous cette balade en bord de scène.
 
@@ -49,6 +49,7 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 
 A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des sacs a dos.
 
+<iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 C'est aussi bien pouvoir voyager depuis la maison.
 
