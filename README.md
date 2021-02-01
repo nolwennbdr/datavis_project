@@ -205,7 +205,7 @@ On constate que l'enregistrement des durées de trajet commence plus tard pour c
 Certaines données sont manquantes dans les années 39-45
 
 
-### #Race <a name="visuel_2_1"></a>
+### #Bar chart race Flourish : évolution des temps de trajet <a name="visuel_2_1"></a>
 
 <iframe src='https://flo.uri.sh/visualisation/5105944/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5105944/?utm_source=embed&utm_campaign=visualisation/5105944' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -216,7 +216,7 @@ Certaines données sont manquantes dans les années 39-45
 
 A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des sacs a dos.
 
-### #Story <a name="visuel_4_1"></a>
+### #Story Flourish : ce que l'on perd dans les gares <a name="visuel_4_1"></a>
 
 <iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
