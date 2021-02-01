@@ -72,7 +72,6 @@ Voici la requête :
 SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WHERE {
   ?item (wdt:P31/(wdt:P279*)) wd:Q3305213;
     wdt:P180 wd:Q1471;
-    wdt:P180 wd:Q1311;                      
     rdfs:label ?Titre.
   FILTER((LANG(?Titre)) = "fr")
   OPTIONAL {
