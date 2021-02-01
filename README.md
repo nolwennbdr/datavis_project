@@ -1,14 +1,14 @@
 ***
 ### Note d'intention au lecteur
-Ces datavisualisations ont été conçues au cours du mois de janvier 2021 selon des questions/besoins que j'ai rencontré dans mon quotidien. Le rendu de ce devoir prend donc la forme d'un journal/blog illustré, avec le parti pris d'un storytelling personnel. En espérant que cela vous diverstisse ! 
+Ces datavisualisations ont été conçues au cours du mois de janvier 2021 selon des questions/besoins que j'ai rencontrés dans mon quotidien. Le rendu de ce devoir prend donc la forme d'un journal/blog illustré, avec le parti pris d'un storytelling personnel. En espérant que cela vous diverstisse ! 
 
 ### Données et outils utilisés
-Les jeux de données utilisés sont en langue française et dépeignent des situations centré autour de la france/du monde francophone (média francophone, paysage, donnée SNCF). Les outils utilisés sont Openrefine (pour remodelage et vérification des données), l'interface Wikidata query service, Palladio, opendatasoft, et flourish.
+Les jeux de données utilisés sont en langue française et dépeignent des situations centré autour de la france/du monde francophone (média francophone, paysage, donnée SNCF). Les outils utilisés sont Openrefine (pour remodelage et vérification des données), l'interface Wikidata query service, Palladio, Opendatasoft, et Flourish.
 
 ***
 
 ### Sommaire
-1. [Thème 1 : La radio, la télévision : Taux d'expression homme-femme : radio et télévision](#Theme1)
+1. [Thème 1 : la radio, la télévision et le genre : Taux d'expression homme-femme : radio et télévision](#Theme1)
     1. [Visuel 1 : Taux d'expression homme femme selon type de média](#visuel_1_1)
     2. [Visuel 2 : Taux d'expression homme femme par chaine](#visuel_1_2)
 2. [Thème 2 : la peinture : représentation la seine et origine de leur auteur](#Theme2)
@@ -21,30 +21,29 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 
 ***
 
-# Cher Journal
+# Cher Journal : 
 
-##### Note du lundi 1er février 2021.
+#### Note du lundi 1er février 2021.
 
 *Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles.*
 
-## 1/ L'importance des rituels, apprendre. (13/01/2021) <a name="Theme1"></a>
-
-
+## 1/ L'importance des rituels : se tenir informer. (13/01/2021) <a name="Theme1"></a>
 
 *La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que les hommes se faisant couper, par identification. Au delà de ce phénomène, j'ai voulu comparé le temps de parole entre homme et femme dans les média.*
 
 L'INA fournit des jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir le jeu de donnée. En effet en comparaison a ceux de l'INA, ce jeux de données ne mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté), réunit à la fois les données télé et radio, et possède déjà une colonne qui fait la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permi de gagner du temps, je n'ai pas eu a modifier le jeu d'origine.
 
-On constate que les données concernants la télévision étudiée plus récemment, on a donc moins d'historique que pour la radio.
-Le taux d'expression féminin ou masculin sont les temps de parole a l'entenne. L'un se mesure par rapport a l'autre en pourcentage, la somme des deux donnes donc toujours 100.
-La palme de la disparité dans les temps de parole revient à la chaine sport.
-Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont sans doutes du a des changements de présentateur/présentatrice. Le temps de parle des femmes augemente en moyenne depuis le début. Le temmps de parole des hommes diminuent donc au même rythme.
-
 ### Visuel 1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
+
+On constate que les données concernants la télévision étudiée plus récemment, on a donc moins d'historique que pour la radio.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGlkZXJ3ZWIiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLU9yUmQiLCJkaXNwbGF5VmFsdWVzIjpmYWxzZSwiZGlzcGxheVVuaXRzIjp0cnVlLCJ5TGFiZWxPdmVycmlkZSI6IkhvbW1lIn0seyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoic3BpZGVyd2ViIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiaGV4cHIiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJ5TGFiZWxPdmVycmlkZSI6IiIsImRpc3BsYXlVbml0cyI6ZmFsc2V9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoyMDAsInNvcnQiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic2VyaWVzQnJlYWtkb3duIjoibWVkaWFfdHlwZSIsImNvbmZpZyI6eyJkYXRhc2V0IjoidGVtcHMtZGUtcGFyb2xlLWRlcy1ob21tZXMtZXQtZGVzLWZlbW1lcy1hLWxhLXRlbGV2aXNpb24tZXQtYS1sYS1yYWRpb0BwdWJsaWMiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmhvdXIiOnRydWUsInRpbWV6b25lIjoiRXVyb3BlL0JlcmxpbiJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
 ### Visuel 2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
+
+Après l'aperçu global, j'ai voulu faire ressortir le détail par chaine. 
+Le taux d'expression féminin ou masculin sont les temps de parole a l'entenne. L'un se mesure par rapport a l'autre en pourcentage, la somme des deux donnes donc toujours 100. La palme de la disparité dans les temps de parole revient à la chaine sport.
+Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont sans doutes du a des changements de présentateur/présentatrice. Le temps de parle des femmes augemente en moyenne depuis le début. Le temmps de parole des hommes diminuent donc au même rythme.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM5MzExN0UifSx7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJoZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM0MUNGQzUifV0sInhBeGlzIjoiY2hhbm5lbF9uYW1lIiwibWF4cG9pbnRzIjpudWxsLCJzb3J0Ijoic2VyaWUxLTEiLCJ0aW1lc2NhbGUiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiIiLCJjb25maWciOnsiZGF0YXNldCI6InRlbXBzLWRlLXBhcm9sZS1kZXMtaG9tbWVzLWV0LWRlcy1mZW1tZXMtYS1sYS10ZWxldmlzaW9uLWV0LWEtbGEtcmFkaW9AcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5ob3VyIjp0cnVlLCJzb3J0IjoiLWZleHByIiwidGltZXpvbmUiOiJFdXJvcGUvQmVybGluIn19LCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIiLCJzdGFja2VkIjoicGVyY2VudCJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
@@ -52,14 +51,15 @@ On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de co
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html
-
++ d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
 
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
 
-*Un matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
+*Ce matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
 
-J'ai crée un jeu de données sur les peintures ayant pour sujet la Seine. Je me suis posée la question de leur date de réalisation (mon idée étant, que ce serait des peinture de la période impressioniste pour la plus part) et de la nationnalité de leur auteurs (des auteurs étrangés se sont ils donnés a l'exercice ?)
+J'ai crée un jeu de données sur les peintures ayant pour sujet la Seine. L'enjeu premier était de récupéré une certaine quantité d'images pour usage personnel. Je me suis ensuite posée la question de leur date de réalisation (mon idée étant, que ce serait des peinture de la période impressioniste pour la majorité) et de la nationnalité de leur auteurs (des auteurs étrangés se sont ils donnés a l'exercice de peindre la seine ?)
+
+Voici la requête : 
 
 ```sparql
 SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WHERE {
@@ -78,7 +78,6 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 }
 ```
 
-
 ### Visuel 1 : Grille d'image <a name="visuel_2_1"></a>
 
 J'ai importé ce jeux de données dans paladio, pour créer une grille d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information.
@@ -92,15 +91,18 @@ Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconvialian
 
 ### Visuel bonus : Map <a name="visuel_2_2"></a>
 
-Il a neigé et je trouve les peintures avec de la neige vraiment très belle. J'ai partagé ce visuel flourish avec une amie, qui je sais, à les mêmes gouts que moi.
+Il a neigé et je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.
 
-## 3/ Avoir des projets <a name="Theme3"></a>
+<iframe src='https://flo.uri.sh/visualisation/5118736/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5118736/?utm_source=embed&utm_campaign=visualisation/5118736' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+
+## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
 
 Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure. 
 
 J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
 
-Jeu de donnée brut, avant : 
+Jeu de donnée brut, avant : (extrait)
 
 | Relations        | Année | Temps estimé en minutes |
 |------------------|-------|-------------------------|
@@ -153,7 +155,7 @@ Remise en ordre et transposition colonne en ligne clef-valeur. J'ai également c
 ]
 ```
 
-Jeu de donnée après traitement : 
+Jeu de donnée après traitement : (total)
 
 | Relations           | 1920 | 1928 | 1929 | 1930 | 1931 | 1932 | 1933 | 1934 | 1935 | 1936 | 1937 | 1938 | 1939 | 1940 | 1941 | 1942 | 1943 | 1944 | 1945 | 1946 | 1947 | 1948 | 1949 | 1950 | 1951 | 1952 | 1953 | 1954 | 1955 | 1956 | 1957 | 1958 | 1959 | 1960 | 1961 | 1962 | 1963 | 1964 | 1965 | 1966 | 1967 | 1968 | 1969 | 1970 | 1971 | 1972 | 1973 | 1974 | 1975 | 1976 | 1977 | 1978 | 1979 | 1980 | 1981 | 1982 | 1983 | 1984 | 1985 | 1986 | 1987 | 1988 | 1989 | 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 |
 |---------------------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
@@ -167,6 +169,7 @@ Jeu de donnée après traitement :
 | PARIS - QUIMPER     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | 476  |      |      |      | 490  |      | 490  |      |      | 480  | 476  | 475  | 428  | 427  | 353  | 356  | 356  | 336  | 335  | 335  | 335  | 328  | 333  | 333  | 333  | 333  | 338  | 336  | 337  | 338  | 338  | 338  | 337  | 337  | 339  | 274  | 277  | 265  | 252  | 251  | 252  | 254  | 254  | 254  | 257  | 258  | 250  | 255  | 253  | 253  | 251  | 251  | 251  | 251  | 251  | 251  | 251  | 254  | 260  | 263  | 263  | 252  | 252  | 212  |
 | PARIS - RENNES      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | 238  |      | 237  | 237  | 245  | 235  | 235  | 211  | 218  | 206  | 206  | 206  | 181  | 181  | 181  | 180  | 180  | 175  | 175  | 177  | 177  | 177  | 178  | 178  | 178  | 177  | 175  | 175  | 176  | 176  | 176  | 177  | 177  | 174  | 173  | 124  | 124  | 122  | 126  | 123  | 123  | 123  | 122  | 123  | 125  | 129  | 123  | 123  | 123  | 123  | 123  | 123  | 123  | 123  | 123  | 123  | 123  | 127  | 126  | 126  | 124  | 124  | 124  | 85   |
 | PARIS - ROUEN       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | 83   |      |      |      | 79   |      | 79   |      |      | 82   | 86   | 85   | 81   | 71   | 71   | 67   | 65   | 65   | 63   | 63   | 63   | 63   | 63   | 67   | 67   | 70   | 68   | 68   | 68   | 68   | 68   | 69   | 69   | 70   | 69   | 67   | 66   | 67   | 66   | 72   | 70   | 72   | 69   | 69   | 68   | 65   | 65   | 66   | 65   | 66   | 66   | 65   | 68   | 66   | 68   | 68   | 70   | 71   | 68   | 69   | 69   | 68   | 68   | 68   |
+
 
 Il faut bien sure garder en tête que les distances entre Paris et ces différentes villes ne sont pas les mêmes.
 On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
