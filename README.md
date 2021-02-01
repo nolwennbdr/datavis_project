@@ -85,7 +85,7 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 }
 ```
 
-### 2-1 : Dans Palladio : les peintures <a name="visuel_2_1"></a>
+### 2-1 : Dans Palladio : les peintures représentant la Seine <a name="visuel_2_1"></a>
 
 J'ai importé ce jeux de données dans paladio, pour créer une grille d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information.
 
@@ -93,12 +93,13 @@ J'ai importé ce jeux de données dans paladio, pour créer une grille d'image u
 
 ![Graphique palladio](https://user-images.githubusercontent.com/77386089/106517153-654a1700-64d8-11eb-9ad4-16c17d16e4cc.PNG)
 
+Grace au facettes, j'observe rapidement en quel année ce sujet était le plus à la mode, et qui a été le plus productif sur le sujet, selon les données récoltées.
 
 ![Facette palladio](https://user-images.githubusercontent.com/77386089/106517158-65e2ad80-64d8-11eb-9236-354a8aa6edc8.PNG)
 
 
 
-### 2-2 : Map <a name="visuel_2_2"></a>
+### 2-2 Dans palladio : naissance et mort des peintres ayant peint la Seine <a name="visuel_2_2"></a>
 
 Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconcialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. A partir des lieux réconcilier (la plupart sur "commune de france" "ville" "grande ville"), j'ai récupéré les coordonnées geographiques. Ainsi cette carte a été formée : 
 
