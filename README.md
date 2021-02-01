@@ -8,20 +8,20 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 ***
 
 ### Sommaire
-1. [Thème 1 : la radio, la télévision et le genre : Taux d'expression homme-femme : radio et télévision](#Theme1)
+Thème 1 : [La radio, la télévision et le genre : Taux d'expression homme-femme : radio et télévision](#Theme1)
     1. [Visuel 1 : Taux d'expression homme femme selon type de média](#visuel_1_1)
     2. [Visuel 2 : Taux d'expression homme femme par chaine](#visuel_1_2)
-<br/>;
-2. [Thème 2 : la peinture : représentation la seine et origine de leur auteur](#Theme2)
+<br/>
+Thème 2 : [La peinture : représentation la seine et origine de leur auteur](#Theme2)
     1. [Visuel 1 : Palladio : grille d'image](#visuel_2_1)
     2. [Visuel 2 : Map des lieux de naissance et mort des peintres](#visuel_2_2)
- <br/>;   
-3. [Thème 3 : les voyages en train : évolution de la performance du réseaux féré au du XXe a aujourd'hui](#Theme3)
+ <br/> 
+Thème 3 : [Les voyages en train : évolution de la performance du réseaux féré au du XXe a aujourd'hui](#Theme3)
     1. [Visuel : race sur Flourish ](#visuel_3_1)
- <br/>;   
-4. [Thème 4 : les objets perdus : gares françaises et objets perdus](#Theme4)
+ <br/>
+Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
     1. [Visuel : story treemap sur Flourish ](#visuel_4_1)
-<br/>;
+<br/>
 ***
 
 # Cher Journal : 
