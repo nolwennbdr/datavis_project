@@ -1,5 +1,4 @@
-![alt text](https://i1.wp.com/www.agnesgrace.co.nz/wp-content/uploads/2017/10/watercolour-blog-header-turquoise.jpg?w=1900&ssl=1) 
-
+***
 ### Note d'intention au lecteur
 Ces datavisualisations ont été conçues au cours du mois de janvier 2021 selon des questions/besoins que j'ai rencontré dans mon quotidien. Le rendu de ce devoir prend donc la forme d'un journal/blog illustré, avec le parti pris d'un storytelling personnel. En espérant que cela vous diverstisse ! 
 
@@ -12,6 +11,7 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 3/ Evolution de la performance du réseaux féré au du XXe a aujourd'hui
 4/ Gares et objet perdu
 
+***
 
 # Cher Journal
 
