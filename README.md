@@ -94,11 +94,22 @@ J'ai importé ce jeux de données dans paladio, pour créer une grille d'image u
 ![Graphique palladio](https://user-images.githubusercontent.com/77386089/106517153-654a1700-64d8-11eb-9ad4-16c17d16e4cc.PNG)
 
 
+![Facette palladio](https://user-images.githubusercontent.com/77386089/106517158-65e2ad80-64d8-11eb-9236-354a8aa6edc8.PNG)
+
 
 
 ### 2-2 : Map <a name="visuel_2_2"></a>
 
-Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconvialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. Ainsi cette carte a été formée : 
+Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconcialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. A partir des lieux réconcilier (la plupart sur "commune de france" "ville" "grande ville"), j'ai récupéré les coordonnées geographiques. Ainsi cette carte a été formée : 
+
+![Carte palladio](https://user-images.githubusercontent.com/77386089/106517157-65e2ad80-64d8-11eb-8998-98b863f3b3e8.PNG)
+
+J'ai utilisé deux calques
+- Un qui relie les deux points lieu de naissance et lieu de mort en rouge
+- Un qui colore en violet le lieu de la mort
+- Les labels ont été associés aux nom de peintre, pour pouvoir identifer au passage de la souris a qui ils correspondent.
+
+![Zoom Carte palladio](https://user-images.githubusercontent.com/77386089/106517156-65e2ad80-64d8-11eb-9eaa-2ea99684493e.PNG)
 
 ### Visuel bonus : Map <a name="visuel_2_2"></a>
 
