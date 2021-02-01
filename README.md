@@ -57,7 +57,7 @@ Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont 
 
 On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de comportement :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 + Plus d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
 
