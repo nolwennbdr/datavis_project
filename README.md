@@ -27,7 +27,7 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 
 *Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles.*
 
-## 1/ L'importance des rituels. (13/01/2021) <a name="Theme1"></a>
+## 1/ L'importance des rituels, apprendre. (13/01/2021) <a name="Theme1"></a>
 
 
 
@@ -51,6 +51,9 @@ Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont 
 On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de comportement :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html
+
 
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
 
