@@ -33,13 +33,13 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 
 L'INA fournit des jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir le jeu de donnée. En effet en comparaison a ceux de l'INA, ce jeux de données ne mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté), réunit à la fois les données télé et radio, et possède déjà une colonne qui fait la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permi de gagner du temps, je n'ai pas eu a modifier le jeu d'origine.
 
-### Visuel 1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
+### #1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
 
 On constate que les données concernants la télévision étudiée plus récemment, on a donc moins d'historique que pour la radio.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGlkZXJ3ZWIiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLU9yUmQiLCJkaXNwbGF5VmFsdWVzIjpmYWxzZSwiZGlzcGxheVVuaXRzIjp0cnVlLCJ5TGFiZWxPdmVycmlkZSI6IkhvbW1lIn0seyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoic3BpZGVyd2ViIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiaGV4cHIiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJ5TGFiZWxPdmVycmlkZSI6IiIsImRpc3BsYXlVbml0cyI6ZmFsc2V9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoyMDAsInNvcnQiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic2VyaWVzQnJlYWtkb3duIjoibWVkaWFfdHlwZSIsImNvbmZpZyI6eyJkYXRhc2V0IjoidGVtcHMtZGUtcGFyb2xlLWRlcy1ob21tZXMtZXQtZGVzLWZlbW1lcy1hLWxhLXRlbGV2aXNpb24tZXQtYS1sYS1yYWRpb0BwdWJsaWMiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmhvdXIiOnRydWUsInRpbWV6b25lIjoiRXVyb3BlL0JlcmxpbiJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
-### Visuel 2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
+### #2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
 
 Après l'aperçu global, j'ai voulu faire ressortir le détail par chaine. 
 Le taux d'expression féminin ou masculin sont les temps de parole a l'entenne. L'un se mesure par rapport a l'autre en pourcentage, la somme des deux donnes donc toujours 100. La palme de la disparité dans les temps de parole revient à la chaine sport.
@@ -49,9 +49,9 @@ Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont 
 
 On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de comportement :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++ <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-+ d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
++ Plus d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
 
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
 
