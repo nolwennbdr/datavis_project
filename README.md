@@ -107,7 +107,7 @@ Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art
 
 J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
 
-Jeu de donnée brut, avant : (extrait)
+**Jeu de donnée brut, avant : (extrait)**
 
 | Relations        | Année | Temps estimé en minutes |
 |------------------|-------|-------------------------|
@@ -120,7 +120,7 @@ Jeu de donnée brut, avant : (extrait)
 | BORDEAUX - LILLE | 1978  |                         |
 | BORDEAUX - LILLE | 1984  |                         |
 
-Traitement OpenRefine : (extrait)
+**Traitement OpenRefine : (extrait)**
 Remise en ordre et transposition colonne en ligne clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais gardé par une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste.
 
 ```json
@@ -160,7 +160,7 @@ Remise en ordre et transposition colonne en ligne clef-valeur. J'ai également c
 ]
 ```
 
-Jeu de donnée après traitement : (total)
+**Jeu de donnée après traitement : (total)**
 
 | Relations           | 1920 | 1928 | 1929 | 1930 | 1931 | 1932 | 1933 | 1934 | 1935 | 1936 | 1937 | 1938 | 1939 | 1940 | 1941 | 1942 | 1943 | 1944 | 1945 | 1946 | 1947 | 1948 | 1949 | 1950 | 1951 | 1952 | 1953 | 1954 | 1955 | 1956 | 1957 | 1958 | 1959 | 1960 | 1961 | 1962 | 1963 | 1964 | 1965 | 1966 | 1967 | 1968 | 1969 | 1970 | 1971 | 1972 | 1973 | 1974 | 1975 | 1976 | 1977 | 1978 | 1979 | 1980 | 1981 | 1982 | 1983 | 1984 | 1985 | 1986 | 1987 | 1988 | 1989 | 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 |
 |---------------------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
@@ -182,7 +182,7 @@ On constate que l'enregistrement des durées de trajet commence plus tard pour c
 Certaines données sont manquantes dans les années 39-45
 
 
-### Visuel 3 : Race <a name="visuel_2_1"></a>
+### Race <a name="visuel_2_1"></a>
 
 <iframe src='https://flo.uri.sh/visualisation/5105944/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5105944/?utm_source=embed&utm_campaign=visualisation/5105944' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -193,7 +193,7 @@ En parcourant les données ouvertes de la SNCF, j'ai trouvé leur données sur l
 
 A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des sacs a dos.
 
-### Visuel 3 : Story <a name="visuel_4_1"></a>
+### Story <a name="visuel_4_1"></a>
 
 <iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
