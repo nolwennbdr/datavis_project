@@ -9,21 +9,21 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 
 ### Sommaire
 Thème 1 : [La radio, la télévision et le genre : Taux d'expression homme-femme : radio et télévision](#Theme1)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1. [Visuel : Taux d'expression homme femme selon type de média](#visuel_1_1)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. [Visuel : Taux d'expression homme femme par chaine](#visuel_1_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1. [Visuel Opendatasoft : Taux d'expression homme femme selon type de média](#visuel_1_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. [Visuel Opendatasoft : Taux d'expression homme femme par chaine](#visuel_1_2)
 <br/>
 <br/>
 Thème 2 : [La peinture : représentation la seine et origine de leur auteur](#Theme2)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1. [Visuel 1 : Palladio : grille d'image](#visuel_2_1)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. [Visuel 2 : Map des lieux de naissance et mort des peintres](#visuel_2_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1. [Visuel : Palladio : grille d'image](#visuel_2_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2. [Visuel : Map des lieux de naissance et mort des peintres](#visuel_2_2)
  <br/> 
  <br/>
 Thème 3 : [Les voyages en train : évolution de la performance du réseaux féré au du XXe a aujourd'hui](#Theme3)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Visuel : race sur Flourish ](#visuel_3_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Visuel Flourish : race sur Flourish ](#visuel_3_1)
  <br/>
  <br/>
 Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Visuel : story treemap sur Flourish ](#visuel_4_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Visuel Flourish : story treemap sur Flourish ](#visuel_4_1)
 <br/>
 <br/>
 ***
