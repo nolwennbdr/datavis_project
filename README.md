@@ -8,7 +8,7 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 ***
 
 ### Sommaire
-#####1. [Thème 1 : La radio, la télévision : Taux d'expression homme-femme : radio et télévision](#Theme1)
+1. [Thème 1 : La radio, la télévision : Taux d'expression homme-femme : radio et télévision](#Theme1)
     1. [Visuel 1 : Taux d'expression homme femme selon type de média](#visuel_1_1)
     2. [Visuel 2 : Taux d'expression homme femme par chaine](#visuel_1_2)
 2. [Thème 2 : la peinture : représentation la seine et origine de leur auteur](#Theme2)
