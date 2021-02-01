@@ -95,6 +95,45 @@ Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art
 
 J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
 
+```json
+[
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Relations",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        },
+        {
+          "valueType": "string",
+          "column": "Année",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/key-value-columnize",
+    "keyColumnName": "Année",
+    "valueColumnName": "Temps estimé en minutes",
+    "noteColumnName": "",
+    "description": "Columnize by key column Année and value column Temps estimé en minutes with note column "
+  }
+]
+```
+
+Voici un extrait de la transformation OpenRefine : remise en ordre et transposition colonne en ligne clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais gardé par une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste. 
+
 Il faut bien sure garder en tête que les distances entre Paris et ces différentes villes ne sont pas les mêmes.
 On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
 On constate que l'enregistrement des durées de trajet commence plus tard pour certaine ligne : après recherche cela correspond (ou non) a la creation des lignes.
