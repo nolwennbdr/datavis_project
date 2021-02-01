@@ -27,7 +27,7 @@ Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
 <br/>
 <br/>
 
-![Graphique palladio](https://user-images.githubusercontent.com/77386089/106518438-2fa62d80-64da-11eb-824f-9040e7f59f04.png)
+![separation](https://www.inharmonydentalcare.com/wp-content/uploads/2019/08/divider-line-png.png)
 # Cher Journal : 
 ***
 
