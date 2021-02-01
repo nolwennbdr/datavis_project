@@ -5,11 +5,7 @@ Ces datavisualisations ont été conçues au cours du mois de janvier 2021 selon
 ### Données et outils utilisés
 Les jeux de données utilisés sont en langue française et dépeignent des situations centré autour de la france/du monde francophone (média francophone, paysage, donnée SNCF). Les outils utilisés sont Openrefine (pour remodelage et vérification des données), l'interface Wikidata query service, Palladio, opendatasoft, et flourish.
 
-### Sommaire
-1/ Taux d'expression homme-femme : radio et télévision
-2/ Peinture représentant la seine et origine de leur auteur
-3/ Evolution de la performance du réseaux féré au du XXe a aujourd'hui
-4/ Gares et objet perdu
+***
 
 ### Table of contents
 1. [Taux d'expression homme-femme : radio et télévision](#Theme1)
