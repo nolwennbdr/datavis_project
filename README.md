@@ -34,8 +34,10 @@ Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
 #### Note du lundi 1er février 2021.
 
 > *Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles.*
-
+<br/>
+<br/>
 ## 1/ L'importance des rituels : se tenir informer. (13/01/2021) <a name="Theme1"></a>
+***
 
 > *La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que les hommes se faisant couper, par identification. Au delà de ce phénomène, j'ai voulu comparé le temps de parole entre homme et femme dans les média.*
 
@@ -60,8 +62,10 @@ On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de co
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 + Plus d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
-
+<br/>
+<br/>
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
+***
 
 > *Ce matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
 
@@ -123,8 +127,10 @@ Même requête, depeint "hiver", "neige" :
 ```sparql
     wdt:P180 wd:Q7561, wd:Q1311;
 ```
-
+<br/>
+<br/>
 ## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
+***
 
 > Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure. 
 
@@ -208,9 +214,10 @@ Certaines données sont manquantes dans les années 39-45
 ### #Bar chart race Flourish : évolution des temps de trajet <a name="visuel_2_1"></a>
 
 <iframe src='https://flo.uri.sh/visualisation/5105944/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5105944/?utm_source=embed&utm_campaign=visualisation/5105944' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-
-
+<br/>
+<br/>
 ## 4/ Etre curieux, s'autoriser à la rêverie <a name="Theme4"></a>
+***
 
 > En parcourant les données ouvertes de la SNCF, j'ai trouvé leur données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon passe navigaux, ou trouvé des documents administratifs oublié sur le banc d'un quaie. (il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les plus courant !)
 
