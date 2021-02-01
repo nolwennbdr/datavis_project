@@ -26,9 +26,10 @@ Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Visuel Flourish : story treemap sur Flourish ](#visuel_4_1)
 <br/>
 <br/>
-***
+
 
 # Cher Journal : 
+***
 
 #### Note du lundi 1er février 2021.
 
