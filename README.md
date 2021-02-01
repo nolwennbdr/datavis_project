@@ -37,7 +37,7 @@ Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
 
 ## 1/ L'importance des rituels : se tenir informer. (13/01/2021) <a name="Theme1"></a>
 
-*La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que les hommes se faisant couper, par identification. Au delà de ce phénomène, j'ai voulu comparé le temps de parole entre homme et femme dans les média.*
+> *La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que les hommes se faisant couper, par identification. Au delà de ce phénomène, j'ai voulu comparé le temps de parole entre homme et femme dans les média.*
 
 L'INA fournit des jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir le jeu de donnée. En effet en comparaison a ceux de l'INA, ce jeux de données ne mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté), réunit à la fois les données télé et radio, et possède déjà une colonne qui fait la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permi de gagner du temps, je n'ai pas eu a modifier le jeu d'origine.
 
@@ -57,13 +57,13 @@ Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont 
 
 On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de comportement :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 + Plus d'info FR à ce sujet : [Billet et vidéo France TV du 18/10/16 ](https://www.francetvinfo.fr/economie/emploi/carriere/vie-professionnelle/emploi-des-femmes/video-ces-hommes-qui-interrompent-les-femmes_1877937.html)
 
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
 
-*Ce matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
+> *Ce matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
 
 J'ai crée un jeu de données sur les peintures ayant pour sujet la Seine. L'enjeu premier était de récupéré une certaine quantité d'images pour usage personnel. Je me suis ensuite posée la question de leur date de réalisation (mon idée étant, que ce serait des peinture de la période impressioniste pour la majorité) et de la nationnalité de leur auteurs (des auteurs étrangés se sont ils donnés a l'exercice de peindre la seine ?)
 
@@ -85,7 +85,7 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 }
 ```
 
-### 2-1 : Dans Palladio <a name="visuel_2_1"></a>
+### 2-1 : Dans Palladio : les peintures <a name="visuel_2_1"></a>
 
 J'ai importé ce jeux de données dans paladio, pour créer une grille d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information.
 
@@ -95,13 +95,14 @@ J'ai importé ce jeux de données dans paladio, pour créer une grille d'image u
 
 
 
+
 ### 2-2 : Map <a name="visuel_2_2"></a>
 
 Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconvialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. Ainsi cette carte a été formée : 
 
 ### Visuel bonus : Map <a name="visuel_2_2"></a>
 
-Il a neigé et je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.
+> Il a neigé, et cela me rappelle que je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.
 
 <iframe src='https://flo.uri.sh/visualisation/5118736/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5118736/?utm_source=embed&utm_campaign=visualisation/5118736' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -113,7 +114,7 @@ Même requête, depeint "hiver", "neige" :
 
 ## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
 
-Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure. 
+> Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure. 
 
 J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
 
@@ -131,7 +132,7 @@ J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openre
 | BORDEAUX - LILLE | 1984  |                         |
 
 **Traitement OpenRefine : (extrait)**
-Remise en ordre et transposition colonne en ligne clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais gardé par une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste.
+Remise en ordre par date et transposition colonne en ligne clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais gardé par une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste.
 
 ```json
 [
@@ -199,7 +200,7 @@ Certaines données sont manquantes dans les années 39-45
 
 ## 4/ Etre curieux, s'autoriser à la rêverie <a name="Theme4"></a>
 
-En parcourant les données ouvertes de la SNCF, j'ai trouvé leur données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon passe navigaux, ou trouvé des documents administratifs oublié sur le banc d'un quaie. (il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les plus courant !)
+> En parcourant les données ouvertes de la SNCF, j'ai trouvé leur données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon passe navigaux, ou trouvé des documents administratifs oublié sur le banc d'un quaie. (il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les plus courant !)
 
 A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des sacs a dos.
 
