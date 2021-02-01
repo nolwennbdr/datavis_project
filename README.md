@@ -116,9 +116,9 @@ J'ai utilisé deux calques
 
 ![Zoom Carte palladio](https://user-images.githubusercontent.com/77386089/106517156-65e2ad80-64d8-11eb-9eaa-2ea99684493e.PNG)
 
-### #Visuel bonus : Map <a name="visuel_2_2"></a>
+### #UPDATE #Visuel bonus : Map <a name="visuel_2_2"></a>
 
-> Il a neigé, et cela me rappelle que je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.
+> *Il a neigé, et cela me rappelle que je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.*
 
 <iframe src='https://flo.uri.sh/visualisation/5118736/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5118736/?utm_source=embed&utm_campaign=visualisation/5118736' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -132,7 +132,7 @@ Même requête, depeint "hiver", "neige" :
 ## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
 ***
 
-> Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure. 
+> *Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure.*
 
 J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
 
