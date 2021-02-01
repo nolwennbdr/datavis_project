@@ -40,13 +40,13 @@ Thème 4 : [Les objets perdus : gares françaises et objets perdus](#Theme4)
 
 L'INA fournit des jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir le jeu de donnée. En effet en comparaison a ceux de l'INA, ce jeux de données ne mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté), réunit à la fois les données télé et radio, et possède déjà une colonne qui fait la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permi de gagner du temps, je n'ai pas eu a modifier le jeu d'origine.
 
-### #1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
+### #1-1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
 
 On constate que les données concernants la télévision étudiée plus récemment, on a donc moins d'historique que pour la radio.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGlkZXJ3ZWIiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLU9yUmQiLCJkaXNwbGF5VmFsdWVzIjpmYWxzZSwiZGlzcGxheVVuaXRzIjp0cnVlLCJ5TGFiZWxPdmVycmlkZSI6IkhvbW1lIn0seyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoic3BpZGVyd2ViIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiaGV4cHIiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJ5TGFiZWxPdmVycmlkZSI6IiIsImRpc3BsYXlVbml0cyI6ZmFsc2V9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoyMDAsInNvcnQiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic2VyaWVzQnJlYWtkb3duIjoibWVkaWFfdHlwZSIsImNvbmZpZyI6eyJkYXRhc2V0IjoidGVtcHMtZGUtcGFyb2xlLWRlcy1ob21tZXMtZXQtZGVzLWZlbW1lcy1hLWxhLXRlbGV2aXNpb24tZXQtYS1sYS1yYWRpb0BwdWJsaWMiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmhvdXIiOnRydWUsInRpbWV6b25lIjoiRXVyb3BlL0JlcmxpbiJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
-### #2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
+### #1-2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
 
 Après l'aperçu global, j'ai voulu faire ressortir le détail par chaine. 
 Le taux d'expression féminin ou masculin sont les temps de parole a l'entenne. L'un se mesure par rapport a l'autre en pourcentage, la somme des deux donnes donc toujours 100. La palme de la disparité dans les temps de parole revient à la chaine sport.
@@ -85,14 +85,14 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 }
 ```
 
-### Visuel 1 : Grille d'image <a name="visuel_2_1"></a>
+### 2-1 : Grille d'image <a name="visuel_2_1"></a>
 
 J'ai importé ce jeux de données dans paladio, pour créer une grille d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information.
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FTitre%20%3Fcreateur%20(YEAR(%3Fdate)%20AS%20%3FAnneeCreation)%20%3Fimage%20%3Fcoord%20WHERE%20%7B%0A%20%20%3Fitem%20(wdt%3AP31%2F(wdt%3AP279*))%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP180%20wd%3AQ1471%3B%0A%20%20%20%20wdt%3AP180%20wd%3AQ1311%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20rdfs%3Alabel%20%3FTitre.%0A%20%20FILTER((LANG(%3FTitre))%20%3D%20%22fr%22)%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3FQcreateur.%0A%20%20%20%20%3FQcreateur%20rdfs%3Alabel%20%3Fcreateur.%0A%20%20%20%20FILTER((LANG(%3Fcreateur))%20%3D%20%22fr%22)%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP571%20%3Fdate.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP625%20%3Fcoord.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 
-### Visuel 2 : Map <a name="visuel_2_2"></a>
+### 2-2 : Map <a name="visuel_2_2"></a>
 
 Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconvialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. Ainsi cette carte a été formée : 
 
