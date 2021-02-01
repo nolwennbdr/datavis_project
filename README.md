@@ -36,7 +36,7 @@ L'INA fournit des jeux de données à ce sujet. Mais c'est sur Opendatasoft que 
 On constate que les données concernants la télévision étudiée plus récemment, on a donc moins d'historique que pour la radio.
 Le taux d'expression féminin ou masculin sont les temps de parole a l'entenne. L'un se mesure par rapport a l'autre en pourcentage, la somme des deux donnes donc toujours 100.
 La palme de la disparité dans les temps de parole revient à la chaine sport.
-Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont sans doutes du a des changements de présentateur/présentatrice. Le temps de parle des femmes augemente en moyenne depuis le début.
+Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont sans doutes du a des changements de présentateur/présentatrice. Le temps de parle des femmes augemente en moyenne depuis le début. Le temmps de parole des hommes diminuent donc au même rythme.
 
 ### Visuel 1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
 
