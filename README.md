@@ -10,6 +10,7 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 3/ Evolution de la performance du réseaux féré au du XXe a aujourd'hui
 4/ Gares et objet perdu
 
+![alt text](https://www.cartabledunemaitresse.fr/wp-content/uploads/telechargements/outils/prepa-mat/modelecrit_txt_2l.jpg) 
 # Cher Journal
 
 Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles. 
