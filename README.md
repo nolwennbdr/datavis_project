@@ -8,21 +8,25 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 ***
 
 ### Sommaire
-Thème 1 - "L'importance des rituels" : [La radio, la télévision et le genre : Taux d'expression homme-femme](#Theme1)
+Thème 1 - "L'importance des rituels" : 
+[La radio, la télévision et le genre : Taux d'expression homme-femme](#Theme1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1. [Visuel Opendatasoft : taux d'expression homme femme selon type de média](#visuel_1_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. [Visuel Opendatasoft : taux d'expression homme femme par chaine](#visuel_1_2)
 <br/>
 <br/>
-Thème 2 - "S'entourer de belles choses" : [La peinture : représentation la seine et origine de leur auteur](#Theme2)
+Thème 2 - "S'entourer de belles choses" : 
+[La peinture : représentation la seine et origine de leur auteur](#Theme2)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1. [Visuel Palladio : grille d'image, graphique, facettes](#visuel_2_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2. [Visuel Palladuo : coordonnéees géographiques des lieux de naissance et mort des peintres (jeu de données augmentés)](#visuel_2_2)
  <br/> 
  <br/>
-Thème 3 - "Avoir des projets" : [Les voyages en train : évolution de la performance du réseau férré du XXe à aujourd'hui](#Theme3)
+Thème 3 - "Avoir des projets" : 
+[Les voyages en train : évolution de la performance du réseau férré du XXe à aujourd'hui](#Theme3)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Visuel Flourish : bar chart race des lignes en fonction de leur temps de trajet ](#visuel_3_1)
  <br/>
  <br/>
-Thème 4 - "Etre curieux" : [Les objets perdus : gares françaises et objets perdus et restitués](#Theme4)
+Thème 4 - "Etre curieux" : 
+[Les objets perdus : gares françaises et objets perdus et restitués](#Theme4)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Story Flourish : treemap sur les cas de 4 gares ](#visuel_4_1)
 
 ![separation](https://www.inharmonydentalcare.com/wp-content/uploads/2019/08/divider-line-png.png)
