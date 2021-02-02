@@ -141,6 +141,33 @@ Même requête, depeint "hiver", "neige" :
 ```sparql
     wdt:P180 wd:Q7561, wd:Q1311;
 ```
+J'ai retiré les lignes lorsque la donnée image n'était pas disponible : 
+
+```json
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "image",
+          "expression": "value",
+          "columnName": "image",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
+```
 <br/>
 <br/>
 ## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
