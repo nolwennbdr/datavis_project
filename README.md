@@ -281,6 +281,8 @@ J'ai selectionné au moins 10 000 enregistrement pour chaque gare : la gare Sain
 
 #### C'est ici que le voyage prend fin
 
-Et nous avons vécu quelques embuches, comme le temps d'actualisation de cette page GitHub, plus proche d'une nuit que de 15 minutes !
+Et nous avons vécu quelques embuches, comme le temps d'actualisation de cette page GitHub, plus proche d'une nuit que de 15 minutes ! La non gestion des fautes de frappes et orthographe par l'éditeur a également été compliquées, nous espérons ne pas avoir laissé trop de coquille. 
+
+Bonne journée à vous !
 
 
