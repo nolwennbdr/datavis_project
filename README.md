@@ -9,23 +9,27 @@ Les jeux de données utilisés sont en langue française et dépeignent des situ
 
 ### Sommaire
 Thème 1 - "L'importance des rituels" : 
+ <br/>
 [La radio, la télévision et le genre : Taux d'expression homme-femme](#Theme1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1. [Visuel Opendatasoft : taux d'expression homme femme selon type de média](#visuel_1_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. [Visuel Opendatasoft : taux d'expression homme femme par chaine](#visuel_1_2)
 <br/>
 <br/>
 Thème 2 - "S'entourer de belles choses" : 
+ <br/>
 [La peinture : représentation la seine et origine de leur auteur](#Theme2)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1. [Visuel Palladio : grille d'image, graphique, facettes](#visuel_2_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2. [Visuel Palladuo : coordonnéees géographiques des lieux de naissance et mort des peintres (jeu de données augmentés)](#visuel_2_2)
  <br/> 
  <br/>
 Thème 3 - "Avoir des projets" : 
+ <br/>
 [Les voyages en train : évolution de la performance du réseau férré du XXe à aujourd'hui](#Theme3)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Visuel Flourish : bar chart race des lignes en fonction de leur temps de trajet ](#visuel_3_1)
  <br/>
  <br/>
 Thème 4 - "Etre curieux" : 
+ <br/>
 [Les objets perdus : gares françaises et objets perdus et restitués](#Theme4)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > [Story Flourish : treemap sur les cas de 4 gares ](#visuel_4_1)
 
@@ -35,7 +39,8 @@ Thème 4 - "Etre curieux" :
 
 #### Note du lundi 1er février 2021.
 
-> *Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles.*
+*Le mois de janvier peut parfois être un peu difficile : c'est à la fois une nouvelle année qui s'annonce, avec tout ce que cela apporte d'espoir et de mélancolie, mais également le milieu de l'hiver, et bien souvent une période d'examen et de reprise pour tout le monde. D'autant plus qu'en ce moment, les loisirs sont restreint, et la chaleur humaine se cristallisée de plus en plus dans des écrans froid. Je voulais donc profiter de la fin de ce mois pour établir un premier bilan, et partager 4 choses que je juge importante, et qu'il faut travailler tout au long de l'année, surtout quand les temps sont diffuciles.*
+ <br/>
 
 ## 1/ L'importance des rituels : se tenir informer. (13/01/2021) <a name="Theme1"></a>
 ***
