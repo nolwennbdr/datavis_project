@@ -20,6 +20,7 @@ Thème 2 - "S'entourer de belles choses" :
 [La peinture : représentation la seine et origine de leur auteur](#Theme2)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1. [Visuel Palladio : grille d'image, graphique, facettes](#visuel_2_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2. [Visuel Palladuo : coordonnéees géographiques des lieux de naissance et mort des peintres (jeu de données augmentés)](#visuel_2_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.3. [Carrousel Flourish : peintures hivernales ](#visuel_2_3)
  <br/> 
  <br/>
 Thème 3 - "Avoir des projets" : 
@@ -45,28 +46,31 @@ Thème 4 - "Etre curieux" :
 ## 1/ L'importance des rituels : se tenir informer. (13/01/2021) <a name="Theme1"></a>
 ***
 
-> *La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que les hommes se faisant couper, par identification. Au-delà de cet aspect, j'ai voulu comparer le temps de parole entre homme et femme dans les média.*
+> *La routine n'est pas toujours synonyme d'ennuie. Elle peut être bénéfique. Tous les matins, j'écoute la radio. Il arrive parfois que j'entende des femmes se faire couper la parole. Je me suis souvent demandé si je le remarquais plus que lorsque les hommes se faisaient couper, par pure identification envers mes consoeurs. Au-delà de cet aspect, j'ai voulu comparer le temps de parole entre homme et femme dans les média.*
 
-C'est'[INA](https://institut.ina.fr/actualites/temps-de-parole-des-femmes) qui a créé les jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir prendre directement ![le jeu de données utilisé](
-https://data.opendatasoft.com/explore/dataset/temps-de-parole-des-hommes-et-des-femmes-a-la-television-et-a-la-radio%40public/information/?disjunctive.hour&sort=-fexpr&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM5MzExN0UifSx7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJoZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM0MUNGQzUifV0sInhBeGlzIjoiY2hhbm5lbF9uYW1lIiwibWF4cG9pbnRzIjpudWxsLCJzb3J0Ijoic2VyaWUxLTEiLCJ0aW1lc2NhbGUiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiIiLCJjb25maWciOnsiZGF0YXNldCI6InRlbXBzLWRlLXBhcm9sZS1kZXMtaG9tbWVzLWV0LWRlcy1mZW1tZXMtYS1sYS10ZWxldmlzaW9uLWV0LWEtbGEtcmFkaW9AcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5ob3VyIjp0cnVlLCJzb3J0IjoiLWZleHByIn19LCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIiLCJzdGFja2VkIjoicGVyY2VudCJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D). En comparaison a ceux de l'INA, ce jeu de données ne mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté par OpenRefine), réunit à la fois les données télé et radio, et possède déjà deux colonnes qui font la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permis de gagner du temps, je n'ai pas eu à modifier le jeu d'origine.
+C'est'[INA](https://www.data.gouv.fr/fr/datasets/temps-de-parole-des-hommes-et-des-femmes-a-la-television-et-a-la-radio/#_) qui a créé les jeux de données à ce sujet. Mais c'est sur Opendatasoft que j'ai préféré choisir prendre directement ![le jeu de données utilisé](
+https://data.opendatasoft.com/explore/dataset/temps-de-parole-des-hommes-et-des-femmes-a-la-television-et-a-la-radio%40public/information/?disjunctive.hour&sort=-fexpr&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM5MzExN0UifSx7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJoZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM0MUNGQzUifV0sInhBeGlzIjoiY2hhbm5lbF9uYW1lIiwibWF4cG9pbnRzIjpudWxsLCJzb3J0Ijoic2VyaWUxLTEiLCJ0aW1lc2NhbGUiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiIiLCJjb25maWciOnsiZGF0YXNldCI6InRlbXBzLWRlLXBhcm9sZS1kZXMtaG9tbWVzLWV0LWRlcy1mZW1tZXMtYS1sYS10ZWxldmlzaW9uLWV0LWEtbGEtcmFkaW9AcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5ob3VyIjp0cnVlLCJzb3J0IjoiLWZleHByIn19LCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIiLCJzdGFja2VkIjoicGVyY2VudCJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D). En comparaison à ceux de l'INA, ce jeu de données avait déjà été retravaillé : il mentionnait pas le taux d'expression selon les heures en journées (jeux de données très denses, qui n'a pas été supporté par OpenRefine), il réunit à la fois les données télé et radio, et possède déjà deux colonnes qui font la moyenne de toutes les chaines radio et chaines télévisée. Cela m'a permis de gagner du temps, je n'ai pas eu à modifier le jeu d'origine.
+Les données sont receuillies à l'aide du logiciel InaSpeechSegmenter que j'ai déjà eu l'occasion de tester à l'inatheque de la BNF l'année dernière. Si l'identification des voix sur les enfants ou les voix cartoonesques n'était pas idéale, l'utilisation du logiciel pour du contenu radio me semble tout a fait adéquat.
 
 
 ### #1-1 : Taux d'expression homme femme selon type de média <a name="visuel_1_1"></a>
 
-On constate que les enregistrements concernant la télévision ne commence qu'en 2010, on a donc moins d'historique que pour la radio, ce qui nous donne un demi cercle sur ce radar chart.
+Il y a 700 000 heures de programme de 1995 à 2018. On constate que les enregistrements concernant la télévision ne commence qu'en 2010, on a donc moins d'historique que pour la radio, ce qui nous donne un demi cercle sur ce radar chart.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGlkZXJ3ZWIiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLU9yUmQiLCJkaXNwbGF5VmFsdWVzIjpmYWxzZSwiZGlzcGxheVVuaXRzIjp0cnVlLCJ5TGFiZWxPdmVycmlkZSI6IkhvbW1lIn0seyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoic3BpZGVyd2ViIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiaGV4cHIiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJ5TGFiZWxPdmVycmlkZSI6IiIsImRpc3BsYXlVbml0cyI6ZmFsc2V9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoyMDAsInNvcnQiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic2VyaWVzQnJlYWtkb3duIjoibWVkaWFfdHlwZSIsImNvbmZpZyI6eyJkYXRhc2V0IjoidGVtcHMtZGUtcGFyb2xlLWRlcy1ob21tZXMtZXQtZGVzLWZlbW1lcy1hLWxhLXRlbGV2aXNpb24tZXQtYS1sYS1yYWRpb0BwdWJsaWMiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmhvdXIiOnRydWUsInRpbWV6b25lIjoiRXVyb3BlL0JlcmxpbiJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
+Le taux d'expression féminin ou masculin sont les temps de parole à l'antenne. 
 En bleu les données concernant les hommes, en orange les données des femmes. Bleu vif et orange vif pour les données télévisuelles, bleu sombre et orange pale pour les données radios.
+
+Lorsque l'on fait le même diagramme pour toutes les chaines, les montés ou descentes du taux de parole des femmes sont sans doutes du à des changements de présentateur/présentatrice. Le temps de parlole des femmes augmente en moyenne depuis le début comme on le constate ci dessus. Le temmps de parole des hommes diminuent donc au même rythme.
 
 ### #1-2 : Taux d'expression homme femme par chaine <a name="visuel_1_2"></a>
 
-Le taux d'expression féminin ou masculin sont les temps de parole a l'antenne. L'un se mesure par rapport à l'autre en pourcentage, la somme des deux donnes donc toujours 100. La palme de la disparité dans les temps de parole revient à la chaine sport.
-Sur certaine chaine, les montés ou descentes du taux de parole des femmes sont sans doutes du a des changements de présentateur/présentatrice. Le temps de parlole des femmes augemente en moyenne depuis le début. Le temmps de parole des hommes diminuent donc au même rythme.
+**Ce graphique faisait parti de mon projet mais était déjà présent dans OpenDataSoft** Je l'ai trouvé très bien fait par rapport au taux d'expression homme femme : l'un se mesure par rapport à l'autre en pourcentage, la somme des deux donnes donc toujours 100. C'est donc très lisible. La palme de la disparité dans les temps de parole revient à la chaine sport.
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJmZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM5MzExN0UifSx7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJoZXhwciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM0MUNGQzUifV0sInhBeGlzIjoiY2hhbm5lbF9uYW1lIiwibWF4cG9pbnRzIjpudWxsLCJzb3J0Ijoic2VyaWUxLTEiLCJ0aW1lc2NhbGUiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiIiLCJjb25maWciOnsiZGF0YXNldCI6InRlbXBzLWRlLXBhcm9sZS1kZXMtaG9tbWVzLWV0LWRlcy1mZW1tZXMtYS1sYS10ZWxldmlzaW9uLWV0LWEtbGEtcmFkaW9AcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5ob3VyIjp0cnVlLCJzb3J0IjoiLWZleHByIiwidGltZXpvbmUiOiJFdXJvcGUvQmVybGluIn19LCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIiLCJzdGFja2VkIjoicGVyY2VudCJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6dHJ1ZX0%3D&static=false&datasetcard=true" width="800" height="600" frameborder="0"></iframe>
 
-On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de comportement :
+On peut donc comprendre pourquoi certaines personnes s'indignent de ce genre de comportement :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9soYj3O4Ud8" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -76,9 +80,9 @@ On peut donc comprendre pourquoi certaines personnes s'indigne de ce genre de co
 ## 2/ S'entourer de belles choses (18/01/2021) <a name="Theme2"></a>
 ***
 
-> *Ce matin je me suis reveillée une fois de plus face a un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je revais de ballade de les quais de seine, de week end à la campagne. Alors prisonière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fais une requête wikidata.*
+> *Ce matin je me suis réveillée une fois de plus face à un mur tout blanc. Je ne sais pas si c'est le manque de décoration, ou le manque de sortie, mais je rêvais de ballade de les quais de seine, de week-end à la campagne. Alors prisonnière de la journée de travail qui m'attendais, sans possibilité de sortir, j'ai fait une requête sparql sur Wikidata.*
 
-J'ai crée un jeu de données sur les peintures ayant pour sujet la Seine. L'enjeu premier était de récupéré une certaine quantité d'images pour usage personnel. Je me suis ensuite posée la question de leur date de réalisation (mon idée étant, que ce serait des peinture de la période impressioniste pour la majorité) et de la nationnalité de leur auteurs (des auteurs étrangés se sont ils donnés a l'exercice de peindre la seine ?)
+J'ai créé un jeu de données sur les peintures ayant pour sujet la Seine. L'enjeu premier était de récupérer une certaine quantité d'images pour usage personnel. Je me suis ensuite posée la question de leur date de réalisation (mon idée première étant que ce serait des peinture de la période impressioniste pour la majorité) et de la nationnalité de leur auteurs (des auteurs étrangés se sont ils donnés à l'exercice de peindre la Seine ?)
 
 Voici la requête : 
 
@@ -98,15 +102,15 @@ SELECT DISTINCT ?item ?Titre ?createur (YEAR(?date) AS ?AnneeCreation) ?image WH
 }
 ```
 
+J'ai obtenu 298 résultat.
+
 ### #2-1 : Dans Palladio : les peintures représentant la Seine <a name="visuel_2_1"></a>
 
-J'ai importé ce jeux de données dans paladio, pour créer une grille d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information.
-
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FTitre%20%3Fcreateur%20(YEAR(%3Fdate)%20AS%20%3FAnneeCreation)%20%3Fimage%20%3Fcoord%20WHERE%20%7B%0A%20%20%3Fitem%20(wdt%3AP31%2F(wdt%3AP279*))%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP180%20wd%3AQ1471%3B%0A%20%20%20%20wdt%3AP180%20wd%3AQ1311%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20rdfs%3Alabel%20%3FTitre.%0A%20%20FILTER((LANG(%3FTitre))%20%3D%20%22fr%22)%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP170%20%3FQcreateur.%0A%20%20%20%20%3FQcreateur%20rdfs%3Alabel%20%3Fcreateur.%0A%20%20%20%20FILTER((LANG(%3Fcreateur))%20%3D%20%22fr%22)%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP571%20%3Fdate.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP625%20%3Fcoord.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+J'ai importé ce jeux de données dans Palladio, directement via le sparql endpoint pour éviter tout problème d'encodage. L'étape une était de créer une grille d'image d'image un peu plus solide que celle proposé par wikidata service, avec affichage de certaine information. Une fois cela fait, j'ai exploré les données en quête de réponses à mes questions : milieu de la fin du XIXe, sans surprise, nous avons bien une majorité d'amateur du plein air.
 
 ![Graphique palladio](https://user-images.githubusercontent.com/77386089/106517153-654a1700-64d8-11eb-9ad4-16c17d16e4cc.PNG)
 
-Grace au facettes, j'observe rapidement en quel année ce sujet était le plus à la mode, et qui a été le plus productif sur le sujet, selon les données récoltées.
+Grace au facettes, j'observe rapidement en quelle année ce sujet était le plus à la mode, et qui a été le plus productif sur le sujet, selon mes données récoltées.
 
 ![Facette palladio](https://user-images.githubusercontent.com/77386089/106517158-65e2ad80-64d8-11eb-9236-354a8aa6edc8.PNG)
 
@@ -114,18 +118,20 @@ Grace au facettes, j'observe rapidement en quel année ce sujet était le plus �
 
 ### #2-2 Dans palladio : naissance et mort des peintres ayant peint la Seine <a name="visuel_2_2"></a>
 
-Pour ce faire, j'ai augmenter ce jeux de données via openrfine, en reconcialiant le nom des peintres et en ajoutant leur lieux de naissance et de mort, ainsi que les coordonnées correspondante. A partir des lieux réconcilier (la plupart sur "commune de france" "ville" "grande ville"), j'ai récupéré les coordonnées geographiques. Ainsi cette carte a été formée : 
+Pour ce faire, j'ai augmenter ce jeux de données via Openrefine, en reconcialiant le nom des peintres avec les données wikidata et en ajoutant leur lieux de naissance et de mort. A partir des lieux réconcilier (la plupart sur "commune de france" "ville" "grande ville"), j'ai récupéré les coordonnées geographiques. Ainsi cette carte à été formée : 
 
 ![Carte palladio](https://user-images.githubusercontent.com/77386089/106517157-65e2ad80-64d8-11eb-8998-98b863f3b3e8.PNG)
 
 J'ai utilisé deux calques
-- Un qui relie les deux points lieu de naissance et lieu de mort en rouge
+- Un qui relie les deux points lieu de naissance et lieu de mort, le tout en rouge
 - Un qui colore en violet le lieu de la mort
-- Les labels ont été associés aux nom de peintre, pour pouvoir identifer au passage de la souris a qui ils correspondent.
+- Les labels ont été associés aux nom de peintre, pour pouvoir identifer au passage de la souris à qui les points correspondent.
 
 ![Zoom Carte palladio](https://user-images.githubusercontent.com/77386089/106517156-65e2ad80-64d8-11eb-9eaa-2ea99684493e.PNG)
 
-### #UPDATE #Visuel bonus : Map <a name="visuel_2_2"></a>
+De nombreux artistes née ou mort a Paris, ainsi que sur les bords de Seine, certains venant de loin, qui a l'inverse de Gauguin on passé leur vieux jour non loin des rives. Certains artistes, née et mort hors de France, parfois loin comme en Amerique du Sud, on eu l'occasion de peindre la seine lors de leur formation auprès de grand maitre à Paris.
+
+### #UPDATE #Visuel bonus : carrousel Flourish suite à intemperie  <a name="visuel_2_3"></a>
 
 > *Il a neigé, et cela me rappelle que je trouve les peintures avec de la neige vraiment très belle. Cela m'a donné envie de créer ce visuel flourish pour une amie, qui je sais, à les mêmes gouts que moi.*
 
@@ -140,9 +146,9 @@ Même requête, depeint "hiver", "neige" :
 ## 3/ Avoir des projets (21/01/2021)<a name="Theme3"></a>
 ***
 
-> *Ces peintures impressionistes m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du XXe siècle, mois aussi je veux filé vers la normandie pour voir un peu de verdure.*
+> *Ces peintures impressionnistes  m'ont rappelée quelques cours d'histoire de l'art. Comme un plein airiste du début du XXe siècle, moi aussi profiter du developpement des rails pour filer vers la Normandie.*
 
-J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openrefine pour l'exploité dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, le traitement openrefine, et un extrait du jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la cote ouest de la France. 
+J'ai trouvé [ce jeu de données SNCF](https://ressources.data.sncf.com/explore/dataset/meilleurs-temps-des-parcours-des-trains/table/?disjunctive.relations&sort=annee) sur l'évolution des temps de parcours des trains. J'ai du totalement le remodeler sur OpenRefine pour l'exploiter dans Flourish, sous forme d'une course. Voici un extrait du jeu de donnée d'origine, un extrait du traitement OpenRefine, et le jeu après modification. Outre la transformation dans la forme, j'ai réduit le jeu de données a 10 lignes de train, partant toutes de paris, vers la côte Ouest de la France. 
 
 **Jeu de donnée brut, avant : (extrait)**
 
@@ -158,7 +164,7 @@ J'ai trouvé ce jeu de données SNCF. J'ai du totalement le remodeler sur openre
 | BORDEAUX - LILLE | 1984  |                         |
 
 **Traitement OpenRefine : (extrait)**
-Remise en ordre par date et transposition colonne en ligne clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais gardé par une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste.
+Remise en ordre par date et transposition colonne en ligne sur un modèle clef-valeur. J'ai également corrigé des formats sur les nombres, et supprimer tous les enregistrements ne contenant pas Paris dans la ligne de train, par une facette par mot. Puis j'ai selectionner toutes les lignes que je voulais garder via une facette textuelle, et en inversant la selection, j'ai supprimé tout le reste.
 
 ```json
 [
@@ -213,15 +219,19 @@ Remise en ordre par date et transposition colonne en ligne clef-valeur. J'ai ég
 | PARIS - ROUEN       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | 83   |      |      |      | 79   |      | 79   |      |      | 82   | 86   | 85   | 81   | 71   | 71   | 67   | 65   | 65   | 63   | 63   | 63   | 63   | 63   | 67   | 67   | 70   | 68   | 68   | 68   | 68   | 68   | 69   | 69   | 70   | 69   | 67   | 66   | 67   | 66   | 72   | 70   | 72   | 69   | 69   | 68   | 65   | 65   | 66   | 65   | 66   | 66   | 65   | 68   | 66   | 68   | 68   | 70   | 71   | 68   | 69   | 69   | 68   | 68   | 68   |
 
 
-Il faut bien sure garder en tête que les distances entre Paris et ces différentes villes ne sont pas les mêmes.
-On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
-On constate que l'enregistrement des durées de trajet commence plus tard pour certaine ligne : après recherche cela correspond (ou non) a la creation des lignes.
-Certaines données sont manquantes dans les années 39-45
-
 
 ### #Bar chart race Flourish : évolution des temps de trajet <a name="visuel_2_1"></a>
 
+Il faut bien sure garder en tête que les distances entre Paris et ces différentes villes ne sont pas les mêmes.
+On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
+
 <iframe src='https://flo.uri.sh/visualisation/5105944/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5105944/?utm_source=embed&utm_campaign=visualisation/5105944' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+Ces données sont récoltées par la Direction des Statistiques et de La Régulation des Informations Economiques de la SNCF. Je n'ai malheureusement pas trouvé d'informations plus spécifique sur ce jeux de données, notemment : 
+- On constate que l'enregistrement des durées de trajet commence plus tard pour certaine ligne : soit ces lignes n'existaient pas encore, soit l'historique de la durée est introuvable ou non vérifiable
+- Certaines données sont manquantes après début de l'existance de la la ligne : on imagine des périodes de travaux, ou bien des mises hors services (periode de la seconde guerre mondiale)
+- Deux vagues d'enregistrement arrivent en 1953 et 1963 
+
 <br/>
 <br/>
 ## 4/ Etre curieux, s'autoriser à la rêverie <a name="Theme4"></a>
@@ -233,9 +243,15 @@ A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des 
 
 ### #Story Flourish : ce que l'on perd dans les gares <a name="visuel_4_1"></a>
 
+Ce [jeu de données](https://ressources.data.sncf.com/explore/dataset/objets-trouves-restitution/information/?sort=date) étant très massif, OpenRefine n'a pas voulu de lui. LibreOffice a également beaucoup mouliné, c'est donc via Excel que j'ai du le couper et filtré sur certaines gares. 
+
+J'ai selectionné au moins 10 000 enregistrement pour chaque gare : la gare Saint Lazare, Marseilles Saint Charles, Lille Flandre et Europe, et Toulouse Matabiau. Je voulais voir si des disparités existaient entre objet perdu selon ces villes. J'aurais également aimé voir si certain objet était plus perdu selon certaine période de l'année, mais l'extraction aurait été trop importante. En résultat cette story flourish. Chaque treemap est navigable dans le détail.
+
 <iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-C'est aussi bien pouvoir voyager depuis la maison.
 
+#### C'est ici que le voyage prend fin
+
+Et nous avons vécu quelques embuches, comme le temps d'actualisation de cette page GitHub, plus proche d'une nuit que de 15 minutes !
 
 
