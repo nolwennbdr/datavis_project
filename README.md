@@ -278,10 +278,9 @@ J'ai selectionné au moins 10 000 enregistrement pour chaque gare : la gare Sain
 
 <iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-
 #### C'est ici que le voyage prend fin
 
-Et nous avons vécu quelques embuches, comme le temps d'actualisation de cette page GitHub, plus proche d'une nuit que de 15 minutes ! La non gestion des fautes de frappes et orthographe par l'éditeur a également été compliquées, nous espérons ne pas avoir laissé trop de coquille. 
+Et nous avons vécu quelques embuches, comme le temps d'actualisation de cette page GitHub, plus proche d'une nuit que de 15 minutes ! La non gestion des fautes de frappes et orthographe par l'éditeur a également été compliquées, nous espérons ne pas avoir laissé trop de coquille. Je pense également à l'accessibilité de cette page et des datavis qui pourraient faire l'objet d'amélioration.
 
 Bonne journée à vous !
 
