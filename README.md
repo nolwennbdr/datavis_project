@@ -259,7 +259,8 @@ On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
 Ces données sont récoltées par la Direction des Statistiques et de La Régulation des Informations Economiques de la SNCF. Je n'ai malheureusement pas trouvé d'informations plus spécifique sur ce jeux de données, notemment : 
 - On constate que l'enregistrement des durées de trajet commence plus tard pour certaine ligne : soit ces lignes n'existaient pas encore, soit l'historique de la durée est introuvable ou non vérifiable
 - Certaines données sont manquantes après début de l'existance de la la ligne : on imagine des périodes de travaux, ou bien des mises hors services (periode de la seconde guerre mondiale)
-- Deux vagues d'enregistrement arrivent en 1953 et 1963 
+- Deux vagues d'enregistrement ou de mise en service arrivent en 1953 et 1963 
+- On peut admirer les belles remontés de certaines lignes, mais également certaines qui rétrogradent. Comme on le constate souvent en ile de france, la distance à parcourir n'est pas toujours signifiante sur la durée du trajet.
 
 <br/>
 <br/>
@@ -268,7 +269,6 @@ Ces données sont récoltées par la Direction des Statistiques et de La Régula
 
 > En parcourant les données ouvertes de la SNCF, j'ai trouvé leur données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon passe navigaux, ou trouvé des documents administratifs oublié sur le banc d'un quaie. (il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les plus courant !)
 
-A paris on perd plus son porte feuille qu'a toulouze, ou on a surtout perdu des sacs a dos.
 
 ### #Story Flourish : ce que l'on perd dans les gares <a name="visuel_4_1"></a>
 
