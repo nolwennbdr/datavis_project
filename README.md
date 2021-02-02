@@ -264,7 +264,6 @@ Ces données sont récoltées par la Direction des Statistiques et de La Régula
 Des recherches approfondies seraient à faire.
 
 <br/>
-<br/>
 ## 4/ Etre curieux, s'autoriser à la rêverie <a name="Theme4"></a>
 ***
 
