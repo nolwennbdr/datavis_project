@@ -19,7 +19,7 @@ Thème 1 - "L'importance des rituels" :
 <br/>
 Thème 2 - "S'entourer de belles choses" : 
  <br/>
-[La peinture : représentation la seine et origine de leur auteur](#Theme2)
+[La peinture : représentation la seine et origine des peintres](#Theme2)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1. [Visuel Palladio : grille d'image, graphique, facettes](#visuel_2_1)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2. [Visuel Palladuo : coordonnéees géographiques des lieux de naissance et mort des peintres (jeu de données augmentés)](#visuel_2_2)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.3. [Carrousel Flourish : peintures hivernales ](#visuel_2_3)
@@ -249,7 +249,7 @@ Remise en ordre par date et transposition colonne en ligne sur un modèle clef-v
 
 
 
-### #Bar chart race Flourish : évolution des temps de trajet <a name="visuel_2_1"></a>
+### #Bar chart race Flourish : évolution des temps de trajet <a name="visuel_3_1"></a>
 
 Il faut bien sure garder en tête que les distances entre Paris et ces différentes villes ne sont pas les mêmes.
 On peut jouer la visualisation en mettant les temps en minutes en ordonnée.
