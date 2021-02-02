@@ -5,7 +5,7 @@ Ces data-visualisations ont été conçues au cours du mois de janvier 2021 selo
 ### Données et outils utilisés
 Les jeux de données utilisés sont en langue française et dépeignent des situations centrées autour de la France/du monde francophone (média francophone, paysage, donnée SNCF). Les outils utilisés sont Openrefine pour le datawrangling et la vérification des données, Wikidata query service, Palladio, Opendatasoft et Flourish.
 Tous fichiers utilisés ou obtenus (données ou traitement) non référencés ou présent dans leur intégralité sur cette page figurent ici : 
-[Fichiers obtenus et historique des traitenements OpenRefine] (https://github.com/nolwennbdr/journal_datavisualisation/issues/2#issue-799173485)
+[Fichiers obtenus et historique des traitenements OpenRefine](https://github.com/nolwennbdr/journal_datavisualisation/issues/2#issue-799173485)
 
 ***
 
