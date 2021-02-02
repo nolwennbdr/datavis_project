@@ -268,14 +268,14 @@ Des recherches approfondies seraient à faire.
 ## 4/ Etre curieux, s'autoriser à la rêverie <a name="Theme4"></a>
 ***
 
-> En parcourant les données ouvertes de la SNCF, j'ai trouvé leurs données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon pass navigo, ou trouvé des documents administratifs oubliés sur le banc d'un quai. (Il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les objets perdus les plus courants !)
+> *En parcourant les données ouvertes de la SNCF, j'ai trouvé leurs données sur les objets perdues en gare. Ca m'a fait sourire, et ça a piqué ma curiosité. Je ne compte plus les fois ou j'ai perdu mon pass navigo, ou trouvé des documents administratifs oubliés sur le banc d'un quai. (Il se trouve que je dois avoir une sorte de chance, car ce ne sont pas les objets perdus les plus courants !)*
 
 
 ### #Story Flourish : ce que l'on perd dans les gares <a name="visuel_4_1"></a>
 
 Ce [jeu de données](https://ressources.data.sncf.com/explore/dataset/objets-trouves-restitution/information/?sort=date) étant très massif, OpenRefine n'a pas voulu de lui. LibreOffice a également beaucoup mouliné, c'est donc via Excel que j'ai du le couper et filtré sur certaines gares. 
 
-J'ai selectionné au moins 10 000 enregistrement pour chaque gare : la gare Saint Lazare, Marseilles Saint Charles, Lille Flandre et Europe, et Toulouse Matabiau. Je voulais voir si des disparités existaient entre objet perdu selon ces villes. J'aurais également aimé voir si certain objet était plus perdus selon certaine période de l'année, mais l'extraction aurait été trop importante. En résultat cette story flourish. Chaque treemap est navigable dans le détail.
+J'ai selectionné au moins 10 000 enregistrements pour chaque gare : la gare Saint Lazare, Marseilles Saint Charles, Lille Flandre et Europe, et Toulouse Matabiau. Je voulais voir si des disparités existaient entre objet perdu selon ces villes. J'aurais également aimé voir si certain objet était plus perdus selon certaine période de l'année, mais l'extraction aurait été trop importante. En résultat cette story flourish. Chaque treemap est navigable dans le détail.
 
 <iframe src='https://flo.uri.sh/story/742905/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/742905/?utm_source=embed&utm_campaign=story/742905' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
